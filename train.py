@@ -18,7 +18,7 @@ learning_rate=2e-5
 n_samples=16
 
 
-def train():
+def train(epoch):
     """
     ### Train
     """
@@ -29,7 +29,7 @@ def train():
         loss = diffusion.loss(data)
         loss.backward()
         optimizer.step()
-        print ('Step [{}/{}], Loss: {:.4f}'.format(batch_ndx, len(data_loader), loss.item()))
+        print ('Epoch [{}] Step [{}/{}], Loss: {:.4f}'.format(epoch, batch_ndx, len(data_loader), loss.item()))
 
 def sample(epoch):
     """
@@ -60,11 +60,11 @@ def run():
     """
     for epoch in range(epochs):
         # Train the model
-        train()
+        train(epoch)
 
                 
         # Sample some images
-        # sample(epoch)
+        sample(epoch)
 
 parser = argparse.ArgumentParser(description='Get the data info')
 parser.add_argument('--dataset', default='mnist', type=str, help='mnist or CelebA')
@@ -77,8 +77,6 @@ epochs = args.epochs
 dataset_style = args.dataset  
     
 if __name__ == '__main__':
-
-    
     eps_model = UNet(
                 image_channels=image_channels,
                 n_channels=n_channels,
