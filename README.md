@@ -4,9 +4,14 @@
 
 Implementation of <a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Model</a> in Pytorch
 
+## python环境
+- torch >=2.0.1
+- python 3.10
+- 
 ## 训练数据
 - celeba数据集 | https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
- 下载: CelebA/Img/img_align_celeba.zip
+ 
+ 百度云盘下载: CelebA/Img/img_align_celeba.zip
 
 ```
 cp img_align_celeba.zip ./data/celebA/
