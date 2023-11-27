@@ -29,7 +29,8 @@ def train(epoch):
         loss = diffusion.loss(data)
         loss.backward()
         optimizer.step()
-        print ('Epoch [{}] Step [{}/{}], Loss: {:.4f}'.format(epoch, batch_ndx, len(data_loader), loss.item()))
+        if batch_ndx % 100==0:
+            print ('Epoch [{}] Step [{}/{}], Loss: {:.4f}'.format(epoch, batch_ndx, len(data_loader), loss.item()))
 
 def sample(epoch):
     """
