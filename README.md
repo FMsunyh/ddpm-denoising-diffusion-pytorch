@@ -1,8 +1,12 @@
 # denoising-diffusion-pytorch
 
-## Denoising Diffusion Probabilistic Model, in Pytorch
+简单复现一下论文 Denoising Diffusion Probabilistic Model, in Pytorch。
 
-Implementation of <a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Model</a> in Pytorch
+- 论文 | <a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Model</a> 
+
+- 论文中的【Algorithm 1 Training】和【Algorithm 2 Sampling】公式推导
+- 复现代码 | https://github.com/FMsunyh/denoising-diffusion-pytorch
+
 
 ## python环境
 - torch 1.13.0
@@ -52,15 +56,9 @@ python train.py --dataset CelebA --epochs 100 --channels 3
 | ![Alt text](demo/CelebA/sample_8.png) | ![Alt text](demo/CelebA/sample_9.png) | ![Alt text](demo/CelebA/sample_10.png) | ![Alt text](demo/CelebA/sample_11.png) | ![Alt text](demo/CelebA/sample_12.png) | ![Alt text](demo/CelebA/sample_13.png) | ![Alt text](demo/CelebA/sample_14.png) | ![Alt text](demo/CelebA/sample_15.png) |
 
 
-## Citations
+## 参考
 
-```bibtex
-@misc{ho2020denoising,
-    title={Denoising Diffusion Probabilistic Models},
-    author={Jonathan Ho and Ajay Jain and Pieter Abbeel},
-    year={2020},
-    eprint={2006.11239},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
-}
-```
+- Denoising Diffusion Probabilistic Models (DDPM) | https://nn.labml.ai/diffusion/ddpm/index.html
+- labmlai | https://github.com/labmlai/annotated_deep_learning_paper_implementations
+- CelebA Dataset | https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+- U-Net model for Denoising Diffusion Probabilistic Models (DDPM) | https://nn.labml.ai/diffusion/ddpm/unet.html
