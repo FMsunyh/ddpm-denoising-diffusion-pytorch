@@ -4,7 +4,7 @@
 
 - 论文 | <a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Model</a> 
 
-- 论文中的【Algorithm 1 Training】和【Algorithm 2 Sampling】公式推导
+- 论文中的【Algorithm 1 Training】和【Algorithm 2 Sampling】公式推导 | https://blog.csdn.net/u010006102/article/details/134648877
 - 复现代码 | https://github.com/FMsunyh/denoising-diffusion-pytorch
 
 
@@ -62,3 +62,6 @@ python train.py --dataset CelebA --epochs 100 --channels 3
 - labmlai | https://github.com/labmlai/annotated_deep_learning_paper_implementations
 - CelebA Dataset | https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 - U-Net model for Denoising Diffusion Probabilistic Models (DDPM) | https://nn.labml.ai/diffusion/ddpm/unet.html
+
+## AIGC学习交流
+![Alt text](images/vx.png)
