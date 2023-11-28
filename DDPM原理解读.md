@@ -2,6 +2,10 @@
 
 CSDN博客 | https://blog.csdn.net/u010006102/article/details/134648877?spm=1001.2014.3001.5502
 
+## 论文中的两条公式
+
+![Alt text](images/image.png)
+
 ## 参考
 
 - Denoising Diffusion Probabilistic Models (DDPM) | https://nn.labml.ai/diffusion/ddpm/index.html

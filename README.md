@@ -1,4 +1,4 @@
-# mini-stable-diffusion
+# denoising-diffusion-pytorch
 
 ## Denoising Diffusion Probabilistic Model, in Pytorch
 
@@ -37,11 +37,19 @@ python train.py --dataset CelebA --epochs 100 --channels 3
 ```
 
 ## 测试效果
+
+
+- MNIST数据集，训练6轮后的测试效果
+ 
+| ![Alt text](demo/MNIST/sample_0.png) | ![Alt text](demo/MNIST/sample_1.png) | ![Alt text](demo/MNIST/sample_2.png)  | ![Alt text](demo/MNIST/sample_3.png)  | ![Alt text](demo/MNIST/sample_4.png)  | ![Alt text](demo/MNIST/sample_5.png)  | ![Alt text](demo/MNIST/sample_6.png)  | ![Alt text](demo/MNIST/sample_7.png)  |
+| ------------------------------------ | ------------------------------------ | ------------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- |
+| ![Alt text](demo/MNIST/sample_8.png) | ![Alt text](demo/MNIST/sample_9.png) | ![Alt text](demo/MNIST/sample_10.png) | ![Alt text](demo/MNIST/sample_11.png) | ![Alt text](demo/MNIST/sample_12.png) | ![Alt text](demo/MNIST/sample_13.png) | ![Alt text](demo/MNIST/sample_14.png) | ![Alt text](demo/MNIST/sample_15.png) |
+
 - celebA数据集，训练50轮后的测试效果
 
-| ![Alt text](demo/sample_0.png) | ![Alt text](demo/sample_1.png) | ![Alt text](demo/sample_2.png)  | ![Alt text](demo/sample_3.png)  | ![Alt text](demo/sample_4.png)  | ![Alt text](demo/sample_5.png)  | ![Alt text](demo/sample_6.png)  | ![Alt text](demo/sample_7.png)  |
-| ------------------------------ | ------------------------------ | ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- |
-| ![Alt text](demo/sample_8.png) | ![Alt text](demo/sample_9.png) | ![Alt text](demo/sample_10.png) | ![Alt text](demo/sample_11.png) | ![Alt text](demo/sample_12.png) | ![Alt text](demo/sample_13.png) | ![Alt text](demo/sample_14.png) | ![Alt text](demo/sample_15.png) |
+| ![Alt text](demo/CelebA/sample_0.png) | ![Alt text](demo/CelebA/sample_1.png) | ![Alt text](demo/CelebA/sample_2.png)  | ![Alt text](demo/CelebA/sample_3.png)  | ![Alt text](demo/CelebA/sample_4.png)  | ![Alt text](demo/CelebA/sample_5.png)  | ![Alt text](demo/CelebA/sample_6.png)  | ![Alt text](demo/CelebA/sample_7.png)  |
+| ------------------------------------- | ------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |
+| ![Alt text](demo/CelebA/sample_8.png) | ![Alt text](demo/CelebA/sample_9.png) | ![Alt text](demo/CelebA/sample_10.png) | ![Alt text](demo/CelebA/sample_11.png) | ![Alt text](demo/CelebA/sample_12.png) | ![Alt text](demo/CelebA/sample_13.png) | ![Alt text](demo/CelebA/sample_14.png) | ![Alt text](demo/CelebA/sample_15.png) |
 
 
 ## Citations
