@@ -1,6 +1,6 @@
-# denoising-diffusion-pytorch
+# ddpm-denoising-diffusion-pytorch
 
-简单复现一下论文 Denoising Diffusion Probabilistic Model, in Pytorch。
+复现论文 Denoising Diffusion Probabilistic Model, in Pytorch。
 
 - 论文 | <a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Model</a> 
 
