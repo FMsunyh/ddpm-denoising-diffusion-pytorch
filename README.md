@@ -55,6 +55,8 @@ python train.py --dataset CelebA --epochs 100 --channels 3
 | ------------------------------------- | ------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |
 | ![Alt text](demo/CelebA/sample_8.png) | ![Alt text](demo/CelebA/sample_9.png) | ![Alt text](demo/CelebA/sample_10.png) | ![Alt text](demo/CelebA/sample_11.png) | ![Alt text](demo/CelebA/sample_12.png) | ![Alt text](demo/CelebA/sample_13.png) | ![Alt text](demo/CelebA/sample_14.png) | ![Alt text](demo/CelebA/sample_15.png) |
 
+## 优秀代码学习
+- [Guide-to-training-DDPMs-from-Scratch](https://github.com/spmallick/learnopencv/tree/master/Guide-to-training-DDPMs-from-Scratch)
 
 ## 参考
 
@@ -62,6 +64,11 @@ python train.py --dataset CelebA --epochs 100 --channels 3
 - labmlai | https://github.com/labmlai/annotated_deep_learning_paper_implementations
 - CelebA Dataset | https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 - U-Net model for Denoising Diffusion Probabilistic Models (DDPM) | https://nn.labml.ai/diffusion/ddpm/unet.html
+
+## 看过的文章
+- [由浅入深了解Diffusion Model](https://zhuanlan.zhihu.com/p/525106459)
+- [An In-Depth Guide to Denoising Diffusion Probabilistic Models – From Theory to Implementation](https://learnopencv.com/denoising-diffusion-probabilistic-models/)
+
 
 ## AIGC学习交流
 ![Alt text](images/vx.png)
